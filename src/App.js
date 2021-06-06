@@ -2,7 +2,13 @@ import React, { useState } from "react";
 import data from "./data";
 import List from "./List";
 function App() {
-	return <h2>reminder project setup</h2>;
-}
+	const [people, setPeople] = useState(data);
+	console.log("this is people", people);
 
+	return (
+		<main>
+			<section className="container"></section>
+		</main>
+	);
+}
 export default App;
