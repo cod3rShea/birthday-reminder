@@ -7,7 +7,10 @@ function App() {
 
 	return (
 		<main>
-			<section className="container"></section>
+			<section className="container">
+				<h3>{people.length} Birthdays today</h3>
+				<List people={people} />
+			</section>
 		</main>
 	);
 }
